@@ -1,25 +1,26 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- * print_number - prints an interger
- * @n: the integer to ve printed.
+ * print_number - prints int with putchar
+ * @n: takes number, hello
+ *
+ * Return: void
  */
 
-print_number(int n)
+void print_number(int n)
 {
- 	unsigned int num = n;
+unsigned int m;
 
-	/*first check if its negative */
-	if (n < 0)
-	{
-		_puchar('-');
-		num = -num;
-	}
-
-	/*print the last digit*/
-	if ((num / 10) > 0)
-		print_num = -num;
-	
-	/*print the last digit*/
-	_putchar((num % 10) + 48);
+if (n < 0)
+{
+_putchar('-');
+m = -n;
+}
+else
+{
+m = n;
+}
+if (m / 10 != 0)
+print_number(m / 10);
+_putchar((m % 10) + '0');
 }
