@@ -5,8 +5,8 @@
 /**
  * print_grid - prints a grid of integers
  * @grid: the address of the two dimensional grid
- * @width: width of the grid
- * @height: height of the grid 
+ * @width: width of grid
+ * @height: height of grid
  *
  * Return: Nothing.
  */

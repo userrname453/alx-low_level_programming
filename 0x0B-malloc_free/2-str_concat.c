@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * str_concat - concatenates two strings.
+ * str_concat - concatenates strings.
  * @s1: first string
- * @s2: second string 
+ * @s2: second string
  *
  * Return: a pointer to a newly allocated space in memory which
  * contains the contents of s1, followed by the contents of s2,
